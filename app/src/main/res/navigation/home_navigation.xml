@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_contentFragment_to_blankFragment"
             app:destination="@id/blankFragment" />
+        <action
+            android:id="@+id/action_contentFragment_to_agFirstFragment"
+            app:destination="@id/agFirstFragment" />
     </fragment>
     <fragment
         android:id="@+id/firstFragment"
@@ -27,4 +30,9 @@
         android:name="ty.learns.android.ui.other.BlankFragment"
         android:label="Blank Fragment"
         tools:layout="@layout/fragment_blank" />
+    <fragment
+        android:id="@+id/agFirstFragment"
+        android:name="ty.learns.android.advancedgraphics.AGFirstFragment"
+        android:label="高级绘图：Hey, World!"
+        tools:layout="@layout/fragment_ag_first_view" />
 </navigation>

@@ -7,5 +7,14 @@
     <string name="activity_home_menu_favorite">Favorite</string>
     <string name="activity_home_menu_about">About</string>
 
+    <!-- Advanced Graphics -->
+    <string name="fan_control">Fan Control</string>
+    <string name="fan_off">off</string>
+    <string name="fan_low">1</string>
+    <string name="fan_medium">2</string>
+    <string name="fan_high">3</string>
+    <string name="change">Change</string>
+    <string name="reset">Reset</string>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -11,7 +11,8 @@ import ty.learns.android.databinding.FragmentHomeListItemBinding
 class HomeRecyclerViewAdapter : RecyclerView.Adapter<HomeRecyclerViewAdapter.CellViewHolder>() {
 
     private val values = listOf<Cell>(
-        Cell("First", "The First Demo!", R.id.action_contentFragment_to_firstFragment)
+        Cell("First", "The First Demo!", R.id.action_contentFragment_to_firstFragment),
+        Cell("Hey, Advanced Graphics!", "Google官方的课程：使用 Kotlin 实现高级 Android 开发", R.id.action_contentFragment_to_agFirstFragment)
     )
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CellViewHolder {

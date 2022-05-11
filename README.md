@@ -12,7 +12,15 @@
 
 # Todo
 
+## New
+
 - [Advanced Android in Kotlin：Lesson 2: Advanced Graphics](https://developer.android.com/codelabs/advanced-android-kotlin-training-welcome?index=..%2F..advanced-android-kotlin-training#0)
 
+## Maintenance
+
+- Home页面：对Item分组
 
 # Done
+
+# 核心概念
+

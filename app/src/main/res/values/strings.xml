@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Learn Android</string>
+    <string name="activity_main_hey_android">Hey, Android!</string>
+
+    <!-- Activity_Home -->
+    <string name="activity_home_bar_title">Table of Content</string>
+    <string name="activity_home_menu_favorite">Favorite</string>
+    <string name="activity_home_menu_about">About</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

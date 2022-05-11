@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.325" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/dice_1.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/dice_2.xml" value="0.16" />
+        <entry key="app/src/main/res/drawable/empty_dice.xml" value="0.16" />
+        <entry key="app/src/main/res/drawable/ic_about_24.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_favorite_24.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_hey_48.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/ic_menu_24.xml" value="0.1755" />
+        <entry key="app/src/main/res/drawable/sleep_0.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/sleep_1.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/sleep_2.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/sleep_3.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/sleep_4.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/sleep_5.xml" value="0.1795" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25116082735331363" />
+        <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/layout/fragment_content.xml" value="0.24283882000855067" />
+        <entry key="app/src/main/res/layout/fragment_demo.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.24283882000855067" />
+        <entry key="app/src/main/res/layout/fragment_home_list.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/layout/fragment_home_list_item.xml" value="0.2543822146216332" />
+        <entry key="app/src/main/res/layout/fragment_item.xml" value="0.2424112868747328" />
+        <entry key="app/src/main/res/layout/fragment_item_list.xml" value="0.2424112868747328" />
+        <entry key="app/src/main/res/layout/fragment_track_sleep_quality.xml" value="0.30458471124822434" />
+        <entry key="app/src/main/res/menu/activity_home.xml" value="0.2424112868747328" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1755" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1755" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

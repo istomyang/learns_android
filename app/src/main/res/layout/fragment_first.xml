@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.first.FirstFragment">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="ty.learns.android.ui.first.FirstViewModel" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/hello_blank_fragment" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/activity_home_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:singleLine="true"
+                android:text="@={viewModel.userInputText2}"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="26sp"
+                tools:text="Hey!" />
+
+            <EditText
+                android:id="@+id/act_home_editView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:singleLine="true"
+                android:text="@={viewModel.userInputText2}"
+                android:textSize="26sp"
+                tools:text="Hey!" />
+
+            <ImageView
+                android:id="@+id/dice_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                app:srcCompat="@drawable/empty_dice"
+                tools:srcCompat="@drawable/dice_1" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </FrameLayout>
+</layout>

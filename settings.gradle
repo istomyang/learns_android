@@ -1,0 +1,27 @@
+pluginManagement {
+    repositories {
+        // https://developer.aliyun.com/mvn/guide
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+
+        // 正常情况下，是秒更新的。
+        // 出现 id 'com.android.application' 找不到的情况，几个库都找不到，是网络问题，这些镜像库是对的。
+        // 同局域网的代理会出现这样的问题，Mac中在网络设置中关闭。
+
+//        gradlePluginPortal()
+//        google()
+//        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/central' }
+//        google()
+//        mavenCentral()
+    }
+}
+rootProject.name = "learns_android"
+include ':app'

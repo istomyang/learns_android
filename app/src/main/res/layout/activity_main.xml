@@ -46,6 +46,13 @@
             android:onClick="sendMessage"
             android:text="Send"
             android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/act_main_ndk_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
 

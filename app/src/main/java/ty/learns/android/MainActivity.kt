@@ -2,11 +2,13 @@ package ty.learns.android
 
 import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.view.inputmethod.InputMethodManager
 import android.widget.*
+import androidx.appcompat.app.AppCompatActivity
+import ty.learns.android.ndk.HeyFFmpeg
+import ty.learns.android.ndk.HeyNDK
 import ty.learns.android.utilities.INTENT_HEY_WORLD_EXTRA
 
 class MainActivity : AppCompatActivity() {
@@ -30,6 +32,12 @@ class MainActivity : AppCompatActivity() {
         // Show the keyboard.
         val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
         imm.showSoftInput(editView, 0)
+
+        // NDK
+        findViewById<TextView>(R.id.act_main_ndk_textView).text = getHeyStringFromJNI("Android")
+
+        // runNDK
+        runNDK()
     }
 
     fun sendMessage(view: View) {
@@ -43,5 +51,24 @@ class MainActivity : AppCompatActivity() {
             putExtra(INTENT_HEY_WORLD_EXTRA, message)
         }
         startActivity(intent)
+    }
+
+    private external fun getHeyStringFromJNI(name: String): String
+
+    companion object {
+        init {
+            System.loadLibrary("hey_ndk")
+        }
+    }
+
+    // 运行所有小代码的地方
+    private fun runNDK() {
+        //runHeyNDKJava()
+
+        HeyFFmpeg.sayHey()
+    }
+
+    private fun runHeyNDKJava() {
+        HeyNDK.printHeyWords()
     }
 }
